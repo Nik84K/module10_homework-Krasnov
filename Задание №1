@@ -1,0 +1,15 @@
+// Задание №1
+
+let input = promt('Введите число')
+let result = +input;
+
+if(typeof result ==='number' && !isNaN(result) && input !== null && input.trim() !==""){
+
+  if(result%2 === 0){
+  consolr.log("Число четное");
+  } else{
+    consolr.log("Число нечетное");
+  }
+
+} else{
+  console.log("Упс, кажется, вы ошиблись")
