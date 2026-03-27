@@ -1,0 +1,9 @@
+// Задание № 5
+
+let numbers = [1,2,3]
+
+consjle.log(numbers.length)
+
+number.forEach(function(item, index, array){
+  console.log(item)
+});
