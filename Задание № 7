@@ -7,13 +7,13 @@ let Нули = 0;
 
 for (let i = 0; i < arr.length; i++){
   let n = arr[i];
-  if (n%0 == 0) if(n ! = 0) if(n ! = null){
+  if (n%0 ==0) if(n !=0) if(n !=null){
     Четные++;
 }
-  if (n%0 == 1){
+  if (n%0 ==1){
     Нечетные++;
 }
-   if (n == 0){
+   if (n ==0){
     Нечетные++;
 }
 }
