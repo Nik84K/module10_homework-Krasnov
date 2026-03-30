@@ -1,14 +1,14 @@
 // Задание №1
 
-let input = promt('Введите число')
+let input = prompt('Введите число')
 let result = +input;
 
 if(typeof result ==='number' && !isNaN(result) && input !== null && input.trim() !==""){
 
   if(result%2 === 0){
-  consolr.log("Число четное");
+  console.log("Число четное");
   } else{
-    consolr.log("Число нечетное");
+    console.log("Число нечетное");
   }
 
 } else{
